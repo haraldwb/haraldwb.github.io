@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Blog on Harald W. Bøe</title><link>https://hboe.no/blog/</link><description>Recent content in Blog on Harald W. Bøe</description><generator>Hugo -- 0.152.0</generator><language>en-us</language><lastBuildDate>Wed, 22 Oct 2025 20:53:19 +0200</lastBuildDate><atom:link href="https://hboe.no/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Omarchy</title><link>https://hboe.no/blog/omarchy/</link><pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate><guid>https://hboe.no/blog/omarchy/</guid><description>&lt;p&gt;There is a new Linux distribution in town, and it&amp;rsquo;s making waves.
+&lt;a href="https://omarchy.org/"&gt;Omarchy&lt;/a&gt; is an arch-linux based distribution intended for developers and its quickly gaining popularity since it&amp;rsquo;s release this summer.&lt;/p&gt;
+&lt;p&gt;The creator is David Heinemeier Hansson (DHH). DHH is the creator of Ruby on Rails and CTO of &lt;a href="https://37signals.com/"&gt;37signals&lt;/a&gt;. From what I&amp;rsquo;ve understood the reason for creating it is that he was fed up by the decline of macs and started looking into how Linux fared as a developer OS.
+Well, he did indeed put together something quite awesome for developers. Here&amp;rsquo;s a few highlights that comes to mind:&lt;/p&gt;</description></item><item><title>Tools I use</title><link>https://hboe.no/blog/tools/</link><pubDate>Mon, 09 Sep 2024 00:00:00 +0000</pubDate><guid>https://hboe.no/blog/tools/</guid><description>&lt;p&gt;I recently got a new work computer and went through the process of setting it up.
+In the likely event that I need to go trough this process again I&amp;rsquo;ve listed most of the tools and documented the installation process of them.&lt;br&gt;
+The list is non-exhaustive as I&amp;rsquo;m sure I&amp;rsquo;ve forgotten some kind of obscure linux CLI tool I use once a month.
+Whenever I discover something new or swap out a tool I&amp;rsquo;ll document it here.&lt;br&gt;
+My development workflow revolves heavily around WSL so the biggest section is related to getting a nice Linux development environment inside WSL setup.
+Hopefully you&amp;rsquo;ll find something cool in here.&lt;/p&gt;</description></item><item><title>Building a personal website with Hugo and Github Pages</title><link>https://hboe.no/blog/personal_website/</link><pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate><guid>https://hboe.no/blog/personal_website/</guid><description>&lt;p&gt;There&amp;rsquo;s a ton of different frameworks, tools and platforms available when building a personal website today.&lt;br&gt;
+In this post I&amp;rsquo;ll go into how and why I chose to build my webpage using the &lt;a href="https://gohugo.io/"&gt;Hugo&lt;/a&gt; framework. I&amp;rsquo;ll also show how to setup the hosting on Github pages which includes pushing the webpage from a private repository to a public one with Github Actions.&lt;/p&gt;
+&lt;p&gt;My requirements for the tech stack were:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fast&lt;/li&gt;
+&lt;li&gt;Low maintenance&lt;/li&gt;
+&lt;li&gt;Easy to create and manage content&lt;/li&gt;
+&lt;li&gt;Content version control&lt;/li&gt;
+&lt;li&gt;Automated deployment&lt;/li&gt;
+&lt;li&gt;Low cost&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Hugo is a static site generator which typically makes loading of webpages extremely fast.
+Static sites are also in general low maintenance.
+All content are markdown files which makes it easy to see changes with git and makes the content highly portable.
+By hosting it on github pages we get automated deployment from github actions and low cost. I only pay for the domain itself.&lt;/p&gt;</description></item></channel></rss>
